@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Concrete Company | CityCreate</title>
+
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Transforming Your Vision into Solid Reality | Discover Unmatched Craftsmanship and Quality with Our Residential Concrete Solutions">
+    <meta name="keywords" content="Residential concrete, Concrete contractors, Concrete services, Concrete solutions, Residential construction, Custom concrete, Concrete installation, Concrete repair, Concrete patios, Concrete driveways, Concrete walkways, Concrete foundations, Concrete countertops, Stamped concrete, Decorative concrete, Concrete staining, Concrete sealing, Concrete finishing, Residential renovations, Home improvement projects">
+    <meta name="author" content="CityCrete">
+
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/site.webmanifest">
+    <link rel="mask-icon" color="#5bbad5" href="/assets/img/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="/assets/vendor/lightgallery.js/dist/css/lightgallery.min.css"/>
+    <link rel="stylesheet" media="screen" href="/assets/vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="/assets/vendor/tiny-slider/dist/tiny-slider.css"/>
+
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="/assets/css/demo/construction/theme.min.css">
+
+    <!-- Page loading styles-->
+    <style>
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+      .page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #787a80;
+      }
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        background-color: #cfcfd1;
+        border-radius: 50%;
+        opacity: 0;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      @keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+    </style>
+
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          var preloader = document.querySelector('.page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 2000);
+        };
+      })();
+    </script>
+  </head>
+
+
+  <!-- Body-->
+  <body>
+
+
+    <!-- Page loading spinner-->
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+
+    <!-- Main content-->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class="page-wrapper position-relative">
+
+
+      <!-- Navbar -->
+      <!-- Remove .navbar-sticky class to detach .navbar from page scroll -->
+      <header class="header navbar navbar-expand-lg navbar-light navbar-sticky navbar-floating">
+        <div class="container px-0 px-xl-3">
+          <a class="navbar-brand order-lg-1 me-lg-5 me-0 pe-lg-2" href="index.html">
+  <img src="/assets/img/construction/logo.png" alt="Createx Logo" width="130">
+          </a>
+          <div class="d-flex align-items-center order-lg-3">
+            <a class="navbar-tool d-flex" href="tel:(602)695-3264">
+              <i class="navbar-tool-icon ci-iphone"></i>
+              <div class="ms-2 ps-1">
+                <h6 class="navbar-tool-title">Call us</h6>
+                <span class="navbar-tool-label d-xl-inline-block d-none">(602) 695-3264</span>
+              </div>
+            </a>
+            <a class="navbar-tool d-flex" href="mailto:quote@citycrete.com">
+              <i class="navbar-tool-icon ci-chat"></i>
+              <div class="ms-2 ps-1">
+                <h6 class="navbar-tool-title">Talk to us</h6>
+                <span class="navbar-tool-label d-xl-inline-block d-none">quote@citycrete.com</span>
+              </div>
+            </a>
+            <button class="navbar-toggler ms-2 me-n3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <!-- <nav class="collapse navbar-collapse order-lg-2" id="navbarCollapse1">
+            <ul class="navbar-nav me-auto text-nowrap">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Home</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="index.html">Homepage v.1</a></li>
+                  <li><a class="dropdown-item" href="index-v2.html">Homepage v.2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="services.html">Services List</a></li>
+                  <li><a class="dropdown-item" href="services-single-v1.html">Single Service v.1</a></li>
+                  <li><a class="dropdown-item" href="services-single-v2.html">Single Service v.2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Works</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="projects.html">Projects Grid</a></li>
+                  <li><a class="dropdown-item" href="project-single-v1.html">Single Project v.1</a></li>
+                  <li><a class="dropdown-item" href="project-single-v2.html">Single Project v.2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                  <li><a class="dropdown-item" href="contacts.html">Contacts</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">News</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="news.html">News Grid</a></li>
+                  <li><a class="dropdown-item" href="news-single.html">Single Post</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav> -->
+        </div>
+      </header>
+
+
+      <!-- Page content-->
+      <!-- Hero-->
+      <section class="d-flex min-vh-100 mb-4 pt-lg-6 pt-5 bg-secondary jarallax" data-jarallax data-speed="0.8">
+        <div class="container d-flex flex-column justify-content-center pt-lg-4 py-5">
+          <div class="order-lg-1 order-2 row align-items-end mb-lg-4 mb-5 pb-lg-3">
+            <div class="col-lg-7 col-md-10 col-sm-11 mx-auto">
+              <p class="mb-lg-0 fs-lg text-lg-start text-center">Transforming Your Vision into Solid Reality | Discover Unmatched Craftsmanship and Quality with Our Residential Concrete Solutions</p>
+              <div class="text-center">
+                <a href="projects.html" class="btn btn-primary btn-lg d-lg-none d-inline-block px-sm-5 px-4 text-uppercase">Explore our projects</a>
+              </div>
+            </div>
+            <div class="col d-lg-block d-none">
+              <div class="tns-custom-controls tns-controls-inverse ms-auto mb-n3" id="tns-custom-hero-controls" tabindex="0">
+                <button type="button" data-controls="prev" tabindex="-1">
+                  <i class="ci-arrow-left"></i>
+                </button>
+                <button type="button" data-controls="next" tabindex="-1">
+                  <i class="ci-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="order-lg-2 order-1 row align-items-lg-stretch align-items-center mb-5">
+            <div class="col-lg-4 col-md-10 col-sm-11 d-lg-flex flex-column justify-content-between position-relative mx-auto mt-lg-6 text-lg-start text-center" style="z-index: 5;" data-jarallax-element="25" data-disable-parallax-down="lg">
+              <div class="">
+                <h3 class="mb-2 pb-1">Over 40 years leader in</h3>
+                <h1 class="display-2 mb-lg-5 pb-lg-3 text-uppercase">Residential Concrete <br>business</h1>
+              </div>
+              <div class="mb-lg-0 mb-md-5 mb-4 text-nowrap">
+                <a href="https://www.facebook.com/people/CityCrete-Arizona/100075931356356/" class="btn-social me-1">
+                  <i class="ci-facebook"></i>
+                </a>
+                <a href="#" class="btn-social me-1">
+                  <i class="ci-twitter"></i>
+                </a>
+                <a href="#" class="btn-social">
+                  <i class="ci-youtube"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-10 col-sm-11 mx-auto">
+
+              <!-- Carousel -->
+              <div class="tns-carousel-wrapper">
+                <div class="tns-carousel-inner" data-carousel-options='{
+                  "gutter": 15,
+                  "navContainer": "#hero-pager",
+                  "controlsContainer": "#tns-custom-hero-controls"
+                }'>
+                  <div><img class="rounded" src="/assets/img/construction/home/hero/carousel/01.jpg" alt="Slider image"></div>
+                  <div><img class="rounded" src="/assets/img/construction/home/hero/carousel/02.jpg" alt="Slider image"></div>
+                  <div><img class="rounded" src="/assets/img/construction/home/hero/carousel/03.jpg" alt="Slider image"></div>
+                  <div><img class="rounded" src="/assets/img/construction/home/hero/carousel/04.jpg" alt="Slider image"></div>
+                </div>
+
+                <!-- Pager -->
+                <div class="tns-pager px-sm-5 pb-sm-5 px-3 pb-3" id="hero-pager">
+                  <button type="button" data-nav="0">01</button>
+                  <button type="button" data-nav="1">02</button>
+                  <button type="button" data-nav="2">03</button>
+                  <button type="button" data-nav="3">04</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Parallax bg -->
+        <div class="jarallax-img" style="background-image: url(/assets/img/construction/home/hero/bg.jpg);"></div>
+      </section>
+
+
+      <!-- Presentation -->
+
+
+
+      <!-- Core values -->
+
+
+
+
+
+
+
+
+
+      </div> <!-- / Shaped bg -->
+
+
+      <!-- Shaped bg -->
+      <div class="pt-md-5 bg-repeat-0" style="background-image: url(/assets/img/construction/shapes/01.png);">
+
+
+        <!-- Progress + Carousel -->
+
+
+
+        <!-- Recent news -->
+
+
+
+      </div> <!-- / Shaped bg -->
+
+
+      <!-- Details -->
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer pt-3 bg-dark">
+      <div class="container mt-lg-3 py-md-5 py-4">
+        <div class="row mb-5">
+          <div class="col-lg-5 col-md-6">
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+              <a class="d-inline-block" href="index.html">
+
+              </a>
+              <div class="mt-sm-1 mt-4 pe-sm-4">
+                <a href="#" class="btn-social">
+                  <i class="ci-whatsapp"></i>
+                </a>
+                <a href="#" class="btn-social">
+                  <i class="ci-messenger"></i>
+                </a>
+                <a href="#" class="btn-social">
+                  <i class="ci-facebook"></i>
+                </a>
+                <a href="#" class="btn-social">
+                  <i class="ci-twitter"></i>
+                </a>
+                <a href="#" class="btn-social">
+                  <i class="ci-youtube"></i>
+                </a>
+              </div>
+            </div>
+            <p class="mb-md-0 mb-4 fs-sm text-light opacity-60">CityCrete is Arizona's fastest residential concrete installer & we're cheap!</p>
+          </div>
+
+        </div>
+        <div class="row mb-sm-5 mb-4">
+          <div class="col-md-4 mb-md-0 mb-4">
+            <h6 class="text-light text-uppercase">Head office</h6>
+            <ul class="nav nav-light flex-column">
+              <li class="nav-item mb-2">
+                <span class="me-1 text-light">Address:</span>
+                <a href="#" class="nav-link d-inline-block p-0 fw-normal">Higley, AZ 85236</a>
+              </li>
+              <li class="nav-item mb-2">
+                <span class="me-1 text-light">Call:</span>
+                <a href="tel:(602)695-3264" class="nav-link d-inline-block p-0 fw-normal">(602) 695-3264</a>
+              </li>
+              <li class="nav-item mb-2">
+                <span class="me-1 text-light">Email:</span>
+                <a href="mailto:quote@citycrete.com" class="nav-link d-inline-block p-0 fw-normal">quote@citycrete.com</a>
+              </li>
+            </ul>
+          </div>
+
+        <div class="d-flex align-items-sm-center justify-content-between py-1">
+          <div class="fs-xs text-light">
+            <span class="d-sm-inline d-block mb-1">
+              <span class="fs-sm">&copy; </span>
+              All rights reserved.
+            </span>
+
+          </div>
+          <div class="d-flex align-items-sm-center">
+            <span class="d-sm-inline-block d-none text-light fs-sm me-3 mb-1 align-vertical text-uppercase">Go to top</span>
+            <a class="btn-scroll-top position-static rounded" href="#top" data-scroll>
+              <i class="btn-scroll-top-icon ci-angle-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Vendor scripts: js libraries and plugins-->
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="/assets/vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script src="/assets/vendor/lg-video.js/dist/lg-video.min.js"></script>
+    <script src="/assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="/assets/vendor/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="/assets/vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="/assets/vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="/assets/vendor/progressbar.js/dist/progressbar.min.js"></script>
+
+    <!-- Main theme script-->
+    <script src="/assets/js/theme.min.js"></script>
+  </body>
+</html>
